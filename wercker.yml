@@ -20,7 +20,7 @@
    after-steps:                    
      - slack-notifier:
          url: $SLACK_URL
-         username: shan1602
+         username: Damarla499
          channel: notifications
  push-2-docker:
    box: nginx:latest
