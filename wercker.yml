@@ -74,7 +74,7 @@
          code: |
            ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST sudo docker tag damarla499/kube:latest damarla499/kube:current
      - script:
-         name: Start all services/containers
+         name: Start all services/containers 
          code: |
            ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST sudo docker container run --detach -p 333:80 --name ravi-linux damarla499/kube:current
 
